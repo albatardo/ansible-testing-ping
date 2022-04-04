@@ -2,7 +2,3 @@
     - all
   tasks:
     - action: ping
-  vars:
-    ansible_host_key_checking: false
-  roles:
-    - including_vars    
