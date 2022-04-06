@@ -1,0 +1,13 @@
+- hosts:
+    - all
+  tasks:
+    - name: Copy files remote to remote
+      copy:
+       src: /blabla/test_v1.py
+       dest: /bloblo/testtest_v1.py
+       remote_src: yes
+       
+    - name: Exec python script
+      script: /bloblo/testtest_v1.py
+      args:
+        executable: /usr/bin/python
