@@ -9,6 +9,6 @@
        
     - name: Exec python script
       script: /tmp/test_v1.py
+      remote_src: yes
       args:
         executable: /usr/bin/python
-      remote_src: yes
