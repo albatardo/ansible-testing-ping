@@ -9,5 +9,4 @@
        remote_src: no
        
     - name: Exec python script
-      command: /tmp/test_v1.py
-      
+      script: /tmp/test_v1.py
