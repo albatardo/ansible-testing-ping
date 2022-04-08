@@ -1,0 +1,8 @@
+- hosts:
+    - all
+  tasks:
+    - name: Copy files remote to remote
+      copy:
+       src: /tmp/semaphore/test.txt
+       dest: /tmp/test.txt
+       remote_src: no
