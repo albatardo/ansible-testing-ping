@@ -3,11 +3,10 @@
   tasks:
     - name: Copy files remote to remote
       copy:
-       src: /tmp/semaphore/test.py
-       dest: /tmp/test_v1.py
+       src: /tmp/semaphore/test.txt
+       dest: /tmp/test.txt
        mode: '0644'
        remote_src: no
        
     - name: Exec python script
-      chdir: /tmp
-      script: test_v1.py
+      script: /tmp/semaphore/test.py
