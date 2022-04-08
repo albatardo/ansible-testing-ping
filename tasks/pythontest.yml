@@ -5,7 +5,7 @@
       copy:
        src: /tmp/semaphore/test.py
        dest: /tmp/test_v1.py
-       remote_src: no
+
     - name: Exec python script
       script: /tmp/test_v1.py
       remote_src: yes
