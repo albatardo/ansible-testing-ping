@@ -9,4 +9,4 @@
        remote_src: no
        
     - name: Exec python script
-      script: /tmp/semaphore/test.py
+      script: /usr/bin/python3 /tmp/semaphore/test.py
