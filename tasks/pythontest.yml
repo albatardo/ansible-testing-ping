@@ -10,4 +10,4 @@
        
     - name: Exec python script
       chdir: /tmp
-      script: ./test_v1.py
+      ansible.builtin.script: ./test_v1.py
